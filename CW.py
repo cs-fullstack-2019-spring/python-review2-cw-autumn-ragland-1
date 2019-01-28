@@ -1,17 +1,18 @@
 # define the task array to be manipulated
-taskArray = []
+taskArray = [1,2,3]
 
 # define main function to call overall task function
 def main():
-    task()
-    # addToFile()
+    # task()
+    addToFile()
 
 # # define file to import and update the list
-# def addToFile():
-#     f = open("test.txt", "w")
-#     f.write("Hello World\n")
-#     f = open('test.txt', 'r')
-#     f.readlines()
+def addToFile():
+    comma = ",\n"
+    f = open("taskFile.txt", "w")
+    f.write("hello world")
+    # f = open('taskFile', 'r')
+    # f.readlines()
 
 # define task function to prompt for and execute action functions
 def task():
