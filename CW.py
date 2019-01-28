@@ -1,5 +1,5 @@
 # define the task array to be manipulated
-taskArray = [1,2,3]
+taskArray = []
 
 # define main function to call overall task function
 def main():
@@ -8,7 +8,6 @@ def main():
 
 # # define file to import and update the list
 def addToFile():
-    comma = ",\n"
     f = open("taskFile.txt", "w")
     f.write("hello world")
     # f = open('taskFile', 'r')
